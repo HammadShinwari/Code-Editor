@@ -51,3 +51,12 @@ label{
 label i{
     margin: 0 10px;
 }
+
+@media(max-width: 600px){
+    .container{
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        gap: 10vw;
+    }
+}
